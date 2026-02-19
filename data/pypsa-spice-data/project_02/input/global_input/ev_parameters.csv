@@ -1,0 +1,5 @@
+country,technology,technology_nomenclature,carrier,class,e_nom_per_ev,p_nom_char,efficiency
+MX,EVST-PUB,Battery EV public storage,Electricity,Store,0.05,,
+MX,EVST-PRV,Battery EV private storage,Electricity,Store,0.06,,
+MX,EVCH-PUB,EV charger public,Electricity,Link,,0.01,0.95
+MX,EVCH-PRV,EV charger private,Electricity,Link,,0.01,0.95
