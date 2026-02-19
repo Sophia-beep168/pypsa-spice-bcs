@@ -1,22 +1,17 @@
-# SPDX-FileCopyrightText: PyPSA-SPICE Developers
-
-# SPDX-License-Identifier: GPL-2.0-or-later
-
-# Untrack all files and folders in this directory
+# Ignore everything under pypsa-spice-data by default
 /pypsa-spice-data/**
 
+# Ignore large / generated files
 *.nc
 *.log
-/pypsa-spice-data/*
 
-# Exceptions: These files will not be ignored and will remain under Git version control.
-# You can list additional files or folders here that you want Git to track.
+# Allow project_02 inputs (and the folders leading to them)
+!/pypsa-spice-data/
 !/pypsa-spice-data/project_02/
+!/pypsa-spice-data/project_02/input/
 !/pypsa-spice-data/project_02/input/**
-!/pypsa-spice-data/project_02/input/**/**
 
+# Still ignore results even inside project_02
 /pypsa-spice-data/**/results/
-/pypsa-spice-data/**/pre-solve*/
-/pypsa-spice-data/**/post-solve*/
-
-/pypsa-spice-data/*
+/pypsa-spice-data/*/pre-solve/
+/pypsa-spice-data/*/post-solve/
