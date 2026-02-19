@@ -1,0 +1,5 @@
+country,bus,store,type,carrier,standing_loss,e_nom_extendable,e_nom,max_store_2025,max_store_2030,max_store_2035,max_store_2040,max_store_2045,max_store_2050
+MX,MX_BCS_N51_LA_PAZ_BATSN,MX_BCS_N51_LA_PAZ_BATSN_STOR,BATS,Electricity,0,False,40,40,40,40,inf,inf,inf
+MX,MX_BCS_N50_VILLA_CONSTITUCION_BATSN,MX_BCS_N50_VILLA_CONSTITUCION_BATSN_STOR,BATS,Electricity,0,False,21.4,21.4,21.4,204,inf,inf,inf
+MX,MX_BCS_N52_LOS_CABOS_BATSN,MX_BCS_N52_LOS_CABOS_BATSN_STOR,BATS,Electricity,0,False,0,0,0,168.8,inf,inf,inf
+MX,MX_BCS_N53_MULEGE_BATSN,MX_BCS_N53_MULEGE_BATSN_STOR,BATS,Electricity,0,False,0,0,0,0,inf,inf,inf
