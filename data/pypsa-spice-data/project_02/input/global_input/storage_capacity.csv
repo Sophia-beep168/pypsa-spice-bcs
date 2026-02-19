@@ -1,5 +1,0 @@
-country,node,type,carrier,bus,name,p_nom,p_nom_extendable,p_nom_max_2025,p_nom_max_2030,p_nom_max_2035,p_nom_max_2040,p_nom_max_2045,p_nom_max_2050,p_nom_min_2025,p_nom_min_2030,p_nom_min_2035,p_nom_min_2040,p_nom_min_2045,p_nom_min_2050
-MX,MX_BCS_N51_LA_PAZ,BATS,Electricity,MX_BCS_N51_LA_PAZ_HVELEC,MX_BCS_N51_LA_PAZ_HVELEC_BATS,10,False ,10,10,10,inf,inf,inf,10,10,10,0,0,0
-MX,MX_BCS_N50_VILLA_CONSTITUCION,BATS,Electricity,MX_BCS_N50_VILLA_CONSTITUCION_HVELEC,MX_BCS_N50_VILLA_CONSTITUCION_HVELEC_BATS,5.36,False ,5.36,5.36,51,inf,inf,inf,5.36,5.36,51,0,0,0
-MX,MX_BCS_N52_LOS_CABOS,BATS,Electricity,MX_BCS_N52_LOS_CABOS_HVELEC,MX_BCS_N52_LOS_CABOS_HVELEC_BATS,0,False ,0,0,42.2,inf,inf,inf,0,0,42.2,0,0,0
-MX,MX_BCS_N53_MULEGE,BATS,Electricity,MX_BCS_N53_MULEGE_HVELEC,MX_BCS_N53_MULEGE_HVELEC_BATS,0,False ,0,0,0,inf,inf,inf,0,0,0,0,0,0
