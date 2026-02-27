@@ -631,7 +631,7 @@ class OutputTables(Plots):
             # selecting only the exports from the link
             eb_links_pos = pd.DataFrame()
             for col in eb.columns:
-                eb_links_pos[col] = eb[col].apply(lambda x: 0 if x > 0 else x)
+                eb_links_pos[col] = eb[col].clip(upper=0)
             average_fuel = (
                 (
                     (mar_prices[eb_links_pos.columns]).mul(eb_links_pos).sum()
