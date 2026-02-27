@@ -1,44 +1,47 @@
 country,technology,technology_nomenclature,carrier,class,efficiency,efficiency2,efficiency3,efficiency_store,max_hours,cyclic_state_of_charge,state_of_charge_initial,p_max_pu,p_min_pu,ramp_limit_down,ramp_limit_up,standing_loss,r_rating
-MX,BATS,Utility Battery storage,Electricity,Store,0.97,0.0,,0.98,,,,1.0,-1.0,1.0,1.0,,0.9
-MX,HHBS,Household Battery storage,Electricity,Store,0.9,0.0,,0.9,,,,1.0,-1.0,1.0,1.0,,0.0
-MX,BIOT,Biomass power plant ,Bio,Link,0.3,0.0,0.0,,,,,1.0,0.0,0.71,0.54,,0.9
-MX,CHP,Biomass CHP plants,Bio,Link,0.27,0.0,0.28,,,,,1.0,0.0,0.71,0.54,,0.9
-MX,CCGT,Combined cycle gas turbine,Gas,Link,0.52,0.2,0.0,,,,,1.0,0.0,0.75,0.71,,0.9
-MX,CCGT,Combined cycle gas turbine,Lng,Link,0.52,0.2,0.0,,,,,1.0,0.0,0.75,0.71,,0.9
-MX,OCGT,Open cycle gas turbine,Gas,Link,0.38,0.2,0.0,,,,,1.0,0.0,0.68,0.63,,0.9
-MX,OCGT,Open cycle gas turbine,Lng,Link,0.38,0.2,0.0,,,,,1.0,0.0,0.68,0.63,,0.9
-MX,CSP,Concentrated solar ,Solar,Generator,1.0,,,,,,,1.0,0.0,1.0,1.0,,0.0
-MX,DAC,Direct air capture,CO2,Link,1.0,-0.5,,,,,,1.0,0.0,1.0,1.0,,0.0
-MX,GEOT,Geothermal power plant,Geothermal,Generator,1.0,,,,,,,0.7,0.491,0.42,0.42,,0.9
-MX,HDAM,Hydro dam,Water,StorageUnit,0.95,,,0.0,9.0,False,3.0,1.0,0.0,1.0,1.0,0.0,0.9
-MX,HPHS,Hydro pumped storage,Electricity,StorageUnit,0.8,0.0,,0.8,,,,1.0,-1.0,1.0,1.0,,0.9
-MX,SubC,subcritical coal power plant,Lig,Link,0.35,0.36,0.0,,,,,1.0,0.0,0.76,0.58,,0.9
-MX,SubC,subcritical coal power plant,Bit,Link,0.35,0.34,0.0,,,,,1.0,0.0,0.76,0.58,,0.9
-MX,SubC,subcritical coal power plant,Hrdc,Link,0.35,0.35,0.0,,,,,1.0,0.0,0.76,0.58,,0.9
-MX,SupC,Supercritical coal power plant,Lig,Link,0.38,0.36,0.0,,,,,1.0,0.0,0.76,0.58,,0.9
-MX,SupC,Supercritical coal power plant,Bit,Link,0.38,0.34,0.0,,,,,1.0,0.0,0.76,0.58,,0.9
-MX,SupC,Supercritical coal power plant,Hrdc,Link,0.38,0.35,0.0,,,,,1.0,0.0,0.76,0.58,,0.9
-MX,HROR,Hydro run-of-river,Water,Generator,1.0,,,,,,,1.0,0.0,1.0,1.0,,0.9
-MX,INLHSTOR,Thermal low Heat Storage,Low_Heat,Store,0.75,0.0,,0.75,,,,1.0,-1.0,1.0,1.0,,0.0
-MX,IND_BOILER,Industry heat boiler,Hrdc,Link,0.9,0.35,0.0,,,,,1.0,0.0,1.0,1.0,,0.0
-MX,IND_BOILER,Industry heat boiler,Oil,Link,0.9,0.28,0.0,,,,,1.0,0.0,1.0,1.0,,0.0
-MX,IND_BOILER,Industry heat boiler,Gas,Link,0.9,0.2,0.0,,,,,1.0,0.0,1.0,1.0,,0.0
-MX,IND_BOILER,Industry heat boiler,Bio,Link,0.9,0.0,0.0,,,,,1.0,0.0,1.0,1.0,,0.0
-MX,IND_BOILER,Industry heat boiler,Hyd,Link,0.9,0.0,0.0,,,,,1.0,0.0,1.0,1.0,,0.0
-MX,NUCL,Nuclear,Uranium,Link,0.33,0.0,0.0,,,,,0.7,0.498,0.72,0.54,,0.9
-MX,OCHT,Open cycle hydrogen turbine,Hyd,Link,0.38,0.0,0.0,,,,,1.0,0.0,0.68,0.63,,0.9
-MX,OILT,Oil turbine power plant,Oil,Link,0.33,0.28,0.0,,,,,1.0,0.0,0.77,0.65,,0.9
-MX,PHOT,Solar PV,Solar,Generator,1.0,,,,,,,,0.0,1.0,1.0,,0.6
-MX,RTPV,Roof top PV,Solar,Generator,1.0,,,,,,,,0.0,1.0,1.0,,0.6
-MX,SWHT,Solar hot water heater,Solar,Generator,1.0,,,,,,,,0.0,1.0,1.0,,0.0
-MX,WSTT,Waste turbine,Waste,Link,0.32,0.36,0.0,,,,,1.0,0.21,0.69,0.53,,0.9
-MX,WTOF,Offshore Wind,Wind,Generator,1.0,,,,,,,,0.0,1.0,1.0,,0.2
-MX,WTON,Onshore Wind,Wind,Generator,1.0,,,,,,,,0.0,1.0,1.0,,0.2
-MX,EDLH,Dielectric heating technology,Electricity,Link,0.55,0.0,,,,,,1.0,0.0,1.0,1.0,,0.0
-MX,EHPP,Industry heat pump,Electricity,Link,0.75,0.0,,,,,,1.0,0.0,1.0,1.0,,0.0
-MX,EIDT,Induction heat boiler,Electricity,Link,4.0,0.0,,,,,,1.0,0.0,1.0,1.0,,0.0
-MX,EERH,Electric resistance heater,Electricity,Link,1.0,0.0,,,,,,1.0,0.0,1.0,1.0,,0.0
-MX,PEVCH,PEV charger,Electricity,Link,1.0,0.0,,,,,,1.0,0.0,1.0,1.0,,0.0
-MX,ELTZ,Electrolyser for hydrogen production,Hyd,Link,0.8,0.0,,,,,,1.0,0.0,1.0,1.0,,0.0
-MX,FITR,Fischer Tropsch,Hyd,Link,0.65,-0.18,,,,,,1.0,0.0,1.0,1.0,,0.0
-MX,METH,Methanation,Hyd,Link,0.8,-0.16,,,,,,1.0,0.0,1.0,1.0,,0.0
+MX,BATS,Utility Battery storage,Electricity,Store,0.97,0,,0.98,,,,1,-1,1,1,,0.9
+MX,HHBS,Household Battery storage,Electricity,Store,0.9,0,,0.9,,,,1,-1,1,1,,0
+MX,BIOT,Biomass power plant ,Bio,Link,0.3,0,0,,,,,1,0,0.71,0.54,,0.9
+MX,CHP,Biomass CHP plants,Bio,Link,0.27,0,0.28,,,,,1,0,0.71,0.54,,0.9
+MX,CCGT,Combined cycle gas turbine,Gas,Link,0.52,0.2,0,,,,,1,0,0.75,0.71,,0.9
+MX,CCGT,Combined cycle gas turbine,Lng,Link,0.52,0.2,0,,,,,1,0,0.75,0.71,,0.9
+MX,OCGT,Open cycle gas turbine,Gas,Link,0.38,0.2,0,,,,,1,0,0.68,0.63,,0.9
+MX,OCGT,Open cycle gas turbine,Lng,Link,0.38,0.2,0,,,,,1,0,0.68,0.63,,0.9
+MX,CSP,Concentrated solar ,Solar,Generator,1,,,,,,,1,0,1,1,,0
+MX,DAC,Direct air capture,CO2,Link,1,-0.5,,,,,,1,0,1,1,,0
+MX,GEOT,Geothermal power plant,Geothermal,Generator,1,,,,,,,0.7,0.491,0.42,0.42,,0.9
+MX,HDAM,Hydro dam,Water,StorageUnit,0.95,,,0,9,False,3,1,0,1,1,0,0.9
+MX,HPHS,Hydro pumped storage,Electricity,StorageUnit,0.8,0,,0.8,,,,1,-1,1,1,,0.9
+MX,SubC,subcritical coal power plant,Lig,Link,0.35,0.36,0,,,,,1,0,0.76,0.58,,0.9
+MX,SubC,subcritical coal power plant,Bit,Link,0.35,0.34,0,,,,,1,0,0.76,0.58,,0.9
+MX,SubC,subcritical coal power plant,Hrdc,Link,0.35,0.35,0,,,,,1,0,0.76,0.58,,0.9
+MX,SupC,Supercritical coal power plant,Lig,Link,0.38,0.36,0,,,,,1,0,0.76,0.58,,0.9
+MX,SupC,Supercritical coal power plant,Bit,Link,0.38,0.34,0,,,,,1,0,0.76,0.58,,0.9
+MX,SupC,Supercritical coal power plant,Hrdc,Link,0.38,0.35,0,,,,,1,0,0.76,0.58,,0.9
+MX,HROR,Hydro run-of-river,Water,Generator,1,,,,,,,1,0,1,1,,0.9
+MX,INLHSTOR,Thermal low Heat Storage,Low_Heat,Store,0.75,0,,0.75,,,,1,-1,1,1,,0
+MX,IND_BOILER,Industry heat boiler,Hrdc,Link,0.9,0.35,0,,,,,1,0,1,1,,0
+MX,IND_BOILER,Industry heat boiler,Oil,Link,0.9,0.28,0,,,,,1,0,1,1,,0
+MX,IND_BOILER,Industry heat boiler,Gas,Link,0.9,0.2,0,,,,,1,0,1,1,,0
+MX,IND_BOILER,Industry heat boiler,Bio,Link,0.9,0,0,,,,,1,0,1,1,,0
+MX,IND_BOILER,Industry heat boiler,Hyd,Link,0.9,0,0,,,,,1,0,1,1,,0
+MX,NUCL,Nuclear,Uranium,Link,0.33,0,0,,,,,0.7,0.498,0.72,0.54,,0.9
+MX,OCHT,Open cycle hydrogen turbine,Hyd,Link,0.38,0,0,,,,,1,0,0.68,0.63,,0.9
+MX,OILT,Oil turbine power plant,Oil,Link,0.33,0.28,0,,,,,1,0,0.77,0.65,,0.9
+MX,PHOT,Solar PV,Solar,Generator,1,,,,,,,,0,1,1,,0.6
+MX,RTPV,Roof top PV,Solar,Generator,1,,,,,,,,0,1,1,,0.6
+MX,SWHT,Solar hot water heater,Solar,Generator,1,,,,,,,,0,1,1,,0
+MX,WSTT,Waste turbine,Waste,Link,0.32,0.36,0,,,,,1,0.21,0.69,0.53,,0.9
+MX,WTOF,Offshore Wind,Wind,Generator,1,,,,,,,,0,1,1,,0.2
+MX,WTON,Onshore Wind,Wind,Generator,1,,,,,,,,0,1,1,,0.2
+MX,EDLH,Dielectric heating technology,Electricity,Link,0.55,0,,,,,,1,0,1,1,,0
+MX,EHPP,Industry heat pump,Electricity,Link,0.75,0,,,,,,1,0,1,1,,0
+MX,EIDT,Induction heat boiler,Electricity,Link,4,0,,,,,,1,0,1,1,,0
+MX,EERH,Electric resistance heater,Electricity,Link,1,0,,,,,,1,0,1,1,,0
+MX,PEVCH,PEV charger,Electricity,Link,1,0,,,,,,1,0,1,1,,0
+MX,ELTZ,Electrolyser for hydrogen production,Hyd,Link,0.8,0,,,,,,1,0,1,1,,0
+MX,FITR,Fischer Tropsch,Hyd,Link,0.65,-0.18,,,,,,1,0,1,1,,0
+MX,METH,Methanation,Hyd,Link,0.8,-0.16,,,,,,1,0,1,1,,0
+MX,OILT_TB,Oil turbine (turbogas),Oil,Link,0.33,0.28,0,,,,,1,0,0.77,0.65,,0.9
+MX,OILT_CI,Oil internal combustion engine,Oil,Link,0.33,0.28,0,,,,,1,0,0.77,0.65,,0.9
+MX,OILT_TE,Oil steam power plant,Oil,Link,0.33,0.28,0,,,,,1,0,0.77,0.65,,0.9
