@@ -14,15 +14,16 @@ logging:
 
 #####Init settings#####
 path_configs:
-  data_folder_name: example
-  project_name: project_01
-  input_scenario_name: scenario_01
-  output_scenario_name: scenario_01_tag1
+  data_folder_name: pypsa-spice-data   # Nombre de la carpeta dentro de data/
+  project_name: project_02             # Tu carpeta de proyecto
+  input_scenario_name: scenario_01     # Subcarpeta con los CSVs de input
+  output_scenario_name: scenario_01_referencia_BCS  # Se crea automáticamente en output/
+
 
 base_configs:
   regions:
-    XY: ["NR","CE", "SO"] # list of countries (keys) and subregions (values in list). Countries in ISO2 format
-    YZ: ["NR","CE", "SO"] # list of countries (keys) and subregions (values in list). Countries in ISO2 format
-  years: [2025, 2030, 2035, 2040, 2045, 2050] # list of modelled years
-  sector: ["p-i-t"] # options: ["p", "p-i", "p-t", "p-i-t"], representing power (p), industry (i), and transport (t) sectors.
-  currency: USD # currency for the model in all uppercases, ISO4217 format
+    MX: ["BCS"]   # País MX (ISO2), subregión BCS (coincide con prefijo MX_BCS_ en buses.csv)
+  years: [2025, 2030, 2035]   # Solo los años con datos de José. Quitar 2040-2050.
+  sector: ["p"]               # Solo sector eléctrico (power)
+  currency: USD
+
