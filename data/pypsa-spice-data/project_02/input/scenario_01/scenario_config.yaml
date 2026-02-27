@@ -43,30 +43,12 @@ co2_management:
 
 
 custom_constraints:
-  # please indicate country/region and their specific custom constraints
   MX:
-    energy_independence:
-      pe_conv_fraction:
-        Solar: 1
-        Wind: 1
-        Geothermal: 1
-        Water: 1
-      ei_fraction:
-        2025: 0.3
-        2030: 0.4
-        2035: 0.5
-
-    production_constraint_fuels: ["Gas", "Oil"]
-    reserve_margin: # check documentation for definition
-      epsilon_load: 0.15 # the fraction of load that is considered as reserve (pu)
-      epsilon_vre: 0.05 # the contribution of vre to the reserve (pu)
-      contingency: 50 # extra contingency (MW)
-      method: static # static or dynamic. If static, ignore epsilon_vre
-    res_generation:
-      math_symbol: "<=" # Left hand side of the formula is the objective
-      res_generation_share: # Share of res generation as the Right hand side of the formula
-        2030: 0.25
-        2035: 0.35
+    reserve_margin:
+      epsilon_load: 0.15
+      epsilon_vre: 0.05
+      contingency: 50
+      method: static
 
 
 #####Solver settings#####
