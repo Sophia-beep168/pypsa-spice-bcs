@@ -22,7 +22,7 @@ scenario_configs:
   resolution:
     method: "nth_hour" # options: ["nth_hour", "clustered"]
     number_of_days: 3 # the number of representative days (used fo "clustered" method)
-    stepsize: 25 # used for "nth_hour" method
+    stepsize: 1 # used for "nth_hour" method
   interest: # interest rate in decimals (e.g. 0.05 represents 5%)
       MX: 0.08            # Tasa de descuento típica México ~8%
   remove_threshold: 0.1 # unit: MW (remove assests with capacity below this threshold)
@@ -37,9 +37,9 @@ co2_management:
   MX:
     option: "co2_cap"
     value:
-      2025: 1000000000
-      2030: 3245000
-      2035: 3245000
+      2025: 10000000000
+      2030: 3.0
+      2035: 0.7
 
 
 custom_constraints:
