@@ -618,6 +618,21 @@ class AddFutureAssets:
             (storage_energy["e_nom_extendable"])
             | (storage_energy_raw["type"] == "CO2STOR")
         ]
+
+        # FIX: leer pisos y techos del CSV para que el modelo respete PLADESE/NDC
+        e_nom_min_col = f"min_store_{self.year}"
+        e_nom_max_col = f"max_store_{self.year}"
+        e_nom_min = (
+            storage_energy[e_nom_min_col].fillna(0).astype(float).values
+            if e_nom_min_col in storage_energy.columns
+            else 0
+        )
+        e_nom_max = (
+            storage_energy[e_nom_max_col].fillna(np.inf).astype(float).values
+            if e_nom_max_col in storage_energy.columns
+            else np.inf
+        )
+
         storage_energy.index = [s + f"_{str(self.year)}" for s in storage_energy.index]
 
         self.network.add(
@@ -628,8 +643,10 @@ class AddFutureAssets:
             carrier=storage_energy["carrier"],
             capital_cost=storage_energy["capital_cost"],
             marginal_cost=storage_energy["marginal_cost"],
-            e_nom=storage_energy["e_nom"],
-            e_nom_extendable=False,
+            e_nom=0,
+            e_nom_min=e_nom_min,
+            e_nom_max=e_nom_max,
+            e_nom_extendable=True,
             standing_loss=storage_energy["standing_loss"],
             e_cyclic=storage_energy["cyclic"],
             build_year=self.year,
